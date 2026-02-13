@@ -1,0 +1,26 @@
+.pricingGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+.pricingCard {
+  background: var(--md-surface-container);
+  border: 1px solid var(--md-outline-variant);
+  padding: 32px;
+  border-radius: var(--radius-lg);
+  text-align: center;
+  transition: 0.3s;
+  position: relative;
+}
+.pricingCard.featured { background: var(--md-primary-container); border-color: var(--md-primary); }
+.pricingCard:hover { transform: translateY(-5px); border-color: var(--md-primary); }
+
+.pricingBadge {
+  position: absolute; top: -12px; left: 50%; transform: translateX(-50%);
+  background: var(--md-primary); color: white; padding: 4px 12px;
+  font-size: 0.75rem; font-weight: 700; border-radius: 20px; text-transform: uppercase;
+}
+.pricingPrice { font-size: 2.5rem; font-weight: 800; color: var(--md-on-surface); margin: 16px 0 4px; }
+.pricingFeatures { list-style: none; margin: 24px 0; text-align: left; }
+.pricingFeatures li { padding: 8px 0; display: flex; gap: 10px; color: var(--md-on-surface-variant); }
+.pricingFeatures li::before { content: '✓'; color: var(--md-primary); font-weight: bold; }
+
+@media (max-width: 768px) {
+  .pricingGrid { grid-template-columns: 1fr; }
+}
