@@ -19,7 +19,7 @@ export const pricingData: PricingItem[] = [
     icon: '🎁',
     price: 'Free',
     unit: '1 Custom Thumbnail',
-    features: ['High Quality (1080p)', '1 Revision', '24 Hour Delivery'],
+    features: ['High Quality (1080p)', '1 Revision', '24/48 Hour Delivery'],
     ctaLink: 'mailto:your@email.com?subject=Free%20Trial',
     ctaText: 'Claim Free',
     isFeatured: false,
