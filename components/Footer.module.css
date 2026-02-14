@@ -25,11 +25,12 @@
   font-size: 1.4rem;
 }
 
+/* UPDATED: Uses var(--md-on-primary) for correct contrast */
 .logoIcon {
   width: 36px;
   height: 36px;
   background: var(--md-primary);
-  color: #fff;
+  color: var(--md-on-primary);
   border-radius: 10px;
   display: grid;
   place-items: center;
