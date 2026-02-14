@@ -7,7 +7,17 @@
 }
 .headerInner { display: flex; align-items: center; justify-content: space-between; height: 70px; }
 .logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.2rem; }
-.logoIcon { width: 32px; height: 32px; background: var(--md-primary); color: #fff; border-radius: 8px; display: grid; place-items: center; }
+
+
+.logoIcon { 
+  width: 32px; 
+  height: 32px; 
+  background: var(--md-primary); 
+  color: var(--md-on-primary); 
+  border-radius: 8px; 
+  display: grid; 
+  place-items: center; 
+}
 
 .navLinks { display: flex; gap: 8px; list-style: none; }
 .navLinks a { padding: 8px 16px; border-radius: var(--radius-full); font-weight: 500; font-size: 0.9rem; color: var(--md-on-surface-variant); transition: 0.2s; }
@@ -30,12 +40,7 @@
 .mobileNav.navOpen { display: flex; }
 .mobileNav a { padding: 12px; font-weight: 600; border-radius: 8px; }
 .mobileNav a:hover { background: var(--md-surface-container); }
-
-/* NEW: Active state for mobile nav */
-.mobileNav a.active {
-  background: var(--md-primary-container);
-  color: var(--md-on-primary-container);
-}
+.mobileNav a.active { background: var(--md-primary-container); color: var(--md-on-primary-container); }
 
 @media (max-width: 768px) {
   .navLinks { display: none; }
