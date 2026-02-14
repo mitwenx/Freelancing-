@@ -7,7 +7,7 @@ export interface GalleryItem {
 export const galleryData: GalleryItem[] = [
   {
     id: 1,
-    imageUrl: 'images/gallery/one.png',
+    imageUrl: 'https://github.com/mitwenx/Freelancing-/blob/c8d140c39d6563bc14a49fb87b10d22bbfa89a9c/images/gallery/one.png',
     alt: 'Tech Thumbnail'
   },
   {
