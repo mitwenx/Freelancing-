@@ -13,8 +13,12 @@ export default function WorksGrid() {
         <div className={styles.thumbGrid}>
           {worksData.map((work) => (
             <div key={work.id} className={styles.thumbCard}>
-              <div className={`${styles.thumbPlaceholder} ${styles[work.gradientClass]}`}>
-                {work.icon}
+              <div className={styles.imageContainer}>
+                <img 
+                  src={work.imageUrl} 
+                  alt={work.title}
+                  loading="lazy"
+                />
               </div>
               <div className={styles.thumbInfo}>
                 <div className={styles.thumbTitle}>{work.title}</div>
