@@ -7,22 +7,22 @@ export interface GalleryItem {
 export const galleryData: GalleryItem[] = [
   {
     id: 1,
-    imageUrl: 'https://placehold.co/1280x720/5B5BE6/FFFFFF?text=Epic+Gaming+Thumbnail',
-    alt: 'Gaming Thumbnail'
+    imageUrl: 'images/gallery/one.png',
+    alt: 'Tech Thumbnail'
   },
   {
     id: 2,
-    imageUrl: 'https://placehold.co/1280x720/7D5260/FFFFFF?text=Tech+Review+2024',
-    alt: 'Tech Review Thumbnail'
+    imageUrl: 'images/gallery/two.png',
+    alt: 'Tutorial Thumbnail'
   },
   {
     id: 3,
-    imageUrl: 'https://placehold.co/1280x720/2D0F7E/FFFFFF?text=Finance+Tips+Guide',
-    alt: 'Finance Thumbnail'
+    imageUrl: 'images/gallery/three.png',
+    alt: 'Bot Thumbnail'
   },
   {
     id: 4,
-    imageUrl: 'https://placehold.co/1280x720/17005E/FFFFFF?text=Vlog+Adventure',
-    alt: 'Vlog Thumbnail'
+    imageUrl: 'images/gallery/four.png',
+    alt: 'Tutorial Thumbnail'
   }
 ];
