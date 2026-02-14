@@ -1,12 +1,28 @@
-.hero { padding-top: 140px; padding-bottom: 40px; text-align: center; }
+/* UPDATED: Adjusted padding to center the badge visually */
+.hero { 
+  padding-top: 115px; 
+  padding-bottom: 40px; 
+  text-align: center; 
+}
+
 .title { font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 800; line-height: 1.1; margin-bottom: 24px; }
 .subtitle { font-size: 1.2rem; color: var(--md-on-surface-variant); max-width: 540px; margin: 0 auto 40px; }
 .buttons { display: flex; justify-content: center; gap: 16px; margin-bottom: 60px; }
+
+/* UPDATED: More space below badge */
 .badge {
-  display: inline-block; padding: 6px 16px;
-  background: var(--md-primary-container); color: var(--md-on-primary-container);
-  border-radius: 50px; font-size: 0.85rem; font-weight: 700; margin-bottom: 24px;
+  display: inline-block; 
+  padding: 6px 16px;
+  background: var(--md-primary-container); 
+  color: var(--md-on-primary-container);
+  border-radius: 50px; 
+  font-size: 0.85rem; 
+  font-weight: 700; 
+  margin-bottom: 32px; 
 }
+
 @media (max-width: 768px) {
   .title { font-size: 2.2rem; }
+  /* On mobile, we might want slightly less padding */
+  .hero { padding-top: 100px; }
 }
