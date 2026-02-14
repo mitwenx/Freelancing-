@@ -1,3 +1,4 @@
+
 .pricingGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
 .pricingCard {
   background: var(--md-surface-container);
@@ -13,7 +14,9 @@
 
 .pricingBadge {
   position: absolute; top: -12px; left: 50%; transform: translateX(-50%);
-  background: var(--md-primary); color: white; padding: 4px 12px;
+  background: var(--md-primary); 
+  color: var(--md-on-primary);
+  padding: 4px 12px;
   font-size: 0.75rem; font-weight: 700; border-radius: 20px; text-transform: uppercase;
 }
 .pricingPrice { font-size: 2.5rem; font-weight: 800; color: var(--md-on-surface); margin: 16px 0 4px; }
