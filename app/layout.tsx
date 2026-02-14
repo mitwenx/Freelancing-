@@ -19,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="85b9e3b6-da40-4445-9ca6-2b98d1f7ff6a"></script>
         {/* Anti-flash script */}
         <script
           dangerouslySetInnerHTML={{
